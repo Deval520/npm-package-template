@@ -1,0 +1,21 @@
+sudo: required
+
+dist: ./
+
+language: node_js
+
+node_js:
+  - "8"
+
+env:
+
+matrix:
+
+before_install:
+
+
+install:
+  - npm install
+
+script:
+

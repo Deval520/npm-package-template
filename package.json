@@ -1,0 +1,32 @@
+{
+  "name": "npm-package-template",
+  "version": "1.0.0",
+  "description": "just for fun",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Deval520/npm-package-template.git"
+  },
+  "keywords": [
+    "mocha"
+  ],
+  "author": "deval or fanchen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Deval520/npm-package-template/issues"
+  },
+  "homepage": "https://github.com/Deval520/npm-package-template#readme",
+  "devDependencies": {
+    "babel-eslint": "^8.0.3",
+    "chai-as-promised": "^7.1.1",
+    "eslint": "^4.13.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jsx-a11y": "^6.0.2",
+    "eslint-plugin-react": "^7.5.1",
+    "mocha": "^4.0.1"
+  }
+}

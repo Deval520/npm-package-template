@@ -1,0 +1,9 @@
+stages:
+  - test
+
+testSelf:
+  stage: test
+  script:
+    - run test
+  only:
+    - master
